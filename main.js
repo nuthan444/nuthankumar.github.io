@@ -2,9 +2,9 @@ const myimage = document.querySelector("img");
 myimage.addEventListener("click", function () {
   const mysrc = myimage.getAttribute("src");
   if (mysrc === "images/hyouka.jpg") {
-    myimage.setAttribute("src", "images/hyouka1.jpg");
+    myimage.setAttribute("src", "hyouka1.jpg");
   } else {
-    myimage.setAttribute("src", "images/hyouka.jpg");
+    myimage.setAttribute("src", "hyouka.jpg");
   }
 });
 
